@@ -7,7 +7,7 @@ variable "location" {
 variable "vm_size" {
   description = "Azure VM size"
   type        = string
-  default     = "Standard_D2as_v5"
+  default     = "Standard_D2as_v7"
 }
 
 variable "github_repo" {
